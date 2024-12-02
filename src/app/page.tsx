@@ -1,6 +1,4 @@
-import { Button, Divider, rem, Stack, Text, Title } from "@mantine/core";
-import Image from "next/image";
-import AudioButton from "./components/audio-button";
+import { Divider, rem, Stack, Text, Title } from "@mantine/core";
 import { headers } from "next/headers";
 import AudioButtonGrid from "./components/audio-button-grid";
 

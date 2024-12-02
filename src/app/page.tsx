@@ -12,7 +12,7 @@ export default async function Home() {
   return (
     <Stack p={rem(32)}>
       <Title>Squib Helper</Title>
-      <Text>Helper website for Phon Phon Squib</Text>
+      <Text>Helper website for Phon Phon squib</Text>
       {viewport === "mobile" && (
         <Text c="red">
           Note: if you&apos;re on mobile, you might need to take your phone off
@@ -31,7 +31,6 @@ export default async function Home() {
         minButtonSize="4em"
         rememberLastPlayed
       />
-      <Divider />
       <Title order={3}>Standard Vowels</Title>
       <AudioButtonGrid
         buttonProps={standardVowels.map(vowel => ({
